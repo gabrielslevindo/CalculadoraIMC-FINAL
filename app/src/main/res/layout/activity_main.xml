@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+    <EditText
+
+        android:maxLength="6"
+        android:id="@+id/edttext_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu peso."
+        android:inputType="numberDecimal"
+        />
+    <EditText
+
+        android:id="@+id/edttext_alt"
+        android:maxLength="6"
+       android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttext_peso"
+        android:hint="Digite sua altura."
+        android:inputType="numberDecimal"
+        /> // a cima é como transformar o teclado em numero.
+
+
+
+
+
+    <Button
+
+        android:id="@+id/calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULAR"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>
